@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CE7100CE-F3DE-426A-89A1-D8D6D4259F44</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RWReactivePlayground</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6F5A92F443BB003C41166E60093A9F18AC0918F3</key>
+		<string>https://github.com/jfperren/ios-learning</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ReactivePlayground-Starter/RWReactivePlayground.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6F5A92F443BB003C41166E60093A9F18AC0918F3</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jfperren/ios-learning</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6F5A92F443BB003C41166E60093A9F18AC0918F3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6F5A92F443BB003C41166E60093A9F18AC0918F3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-learning</string>
+		</dict>
+	</array>
+</dict>
+</plist>
