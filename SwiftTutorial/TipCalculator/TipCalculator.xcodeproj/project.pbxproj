@@ -13,6 +13,7 @@
 		829DBA671B122ACF007A3C8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 829DBA661B122ACF007A3C8F /* Images.xcassets */; };
 		829DBA6A1B122ACF007A3C8F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829DBA681B122ACF007A3C8F /* LaunchScreen.xib */; };
 		829DBA761B122ACF007A3C8F /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829DBA751B122ACF007A3C8F /* TipCalculatorTests.swift */; };
+		829DBA801B122CB7007A3C8F /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829DBA7F1B122CB7007A3C8F /* TipCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		829DBA6F1B122ACF007A3C8F /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		829DBA741B122ACF007A3C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		829DBA751B122ACF007A3C8F /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		829DBA7F1B122CB7007A3C8F /* TipCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				829DBA5F1B122ACF007A3C8F /* AppDelegate.swift */,
+				829DBA7F1B122CB7007A3C8F /* TipCalculator.swift */,
 				829DBA611B122ACF007A3C8F /* ViewController.swift */,
 				829DBA631B122ACF007A3C8F /* Main.storyboard */,
 				829DBA661B122ACF007A3C8F /* Images.xcassets */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829DBA801B122CB7007A3C8F /* TipCalculator.swift in Sources */,
 				829DBA621B122ACF007A3C8F /* ViewController.swift in Sources */,
 				829DBA601B122ACF007A3C8F /* AppDelegate.swift in Sources */,
 			);
