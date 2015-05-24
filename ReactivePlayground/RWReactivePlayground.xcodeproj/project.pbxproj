@@ -18,9 +18,11 @@
 		72A2883418618A2E00DDD30A /* RWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A2883318618A2E00DDD30A /* RWViewController.m */; };
 		72A2883618618A2E00DDD30A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72A2883518618A2E00DDD30A /* Images.xcassets */; };
 		72A2885418620EA100DDD30A /* RWDummySignInService.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A2885318620EA100DDD30A /* RWDummySignInService.m */; };
+		F8647CE556156343172E8211 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C97716E982ED857242E85572 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E59325F2BBCB1AF7BCA9052 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		721E122618698DC100B30134 /* kitten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten.jpg; sourceTree = "<group>"; };
 		72A2881A18618A2E00DDD30A /* RWReactivePlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWReactivePlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A2881D18618A2E00DDD30A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +41,8 @@
 		72A2883C18618A2E00DDD30A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		72A2885218620EA100DDD30A /* RWDummySignInService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWDummySignInService.h; sourceTree = "<group>"; };
 		72A2885318620EA100DDD30A /* RWDummySignInService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWDummySignInService.m; sourceTree = "<group>"; };
+		BD2F74D9F060541C4056716F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C97716E982ED857242E85572 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,18 +53,29 @@
 				72A2882018618A2E00DDD30A /* CoreGraphics.framework in Frameworks */,
 				72A2882218618A2E00DDD30A /* UIKit.framework in Frameworks */,
 				72A2881E18618A2E00DDD30A /* Foundation.framework in Frameworks */,
+				F8647CE556156343172E8211 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C6B87E7FAEDE81AE2AAB53A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD2F74D9F060541C4056716F /* Pods.debug.xcconfig */,
+				6E59325F2BBCB1AF7BCA9052 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		72A2881118618A2E00DDD30A = {
 			isa = PBXGroup;
 			children = (
 				72A2882318618A2E00DDD30A /* RWReactivePlayground */,
 				72A2881C18618A2E00DDD30A /* Frameworks */,
 				72A2881B18618A2E00DDD30A /* Products */,
+				3C6B87E7FAEDE81AE2AAB53A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +94,7 @@
 				72A2881F18618A2E00DDD30A /* CoreGraphics.framework */,
 				72A2882118618A2E00DDD30A /* UIKit.framework */,
 				72A2883C18618A2E00DDD30A /* XCTest.framework */,
+				C97716E982ED857242E85572 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72A2884C18618A2E00DDD30A /* Build configuration list for PBXNativeTarget "RWReactivePlayground" */;
 			buildPhases = (
+				CC2362452F4FE270F2BCC84B /* Check Pods Manifest.lock */,
 				72A2881618618A2E00DDD30A /* Sources */,
 				72A2881718618A2E00DDD30A /* Frameworks */,
 				72A2881818618A2E00DDD30A /* Resources */,
+				47086E16D77C93BEA0E33E4A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,6 +190,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47086E16D77C93BEA0E33E4A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC2362452F4FE270F2BCC84B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		72A2881618618A2E00DDD30A /* Sources */ = {
@@ -281,6 +332,7 @@
 		};
 		72A2884D18618A2E00DDD30A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD2F74D9F060541C4056716F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -294,6 +346,7 @@
 		};
 		72A2884E18618A2E00DDD30A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E59325F2BBCB1AF7BCA9052 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
